@@ -1,0 +1,421 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "20",
+      "name": "Root",
+      "children": [
+        {
+          "id": "23",
+          "name": "Text",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "8",
+                "text": "Textddddddd",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 15,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "ShittyDebugTextBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 1.763006329536438,
+            "y": -0.7076957821846008,
+            "z": -17.66839599609375
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "6",
+          "name": "Player",
+          "children": [],
+          "components": [
+            {
+              "type": "fMouseInput",
+              "config": {
+                "cameraActorName": "Camera"
+              },
+              "id": "1"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "PlayerBehavior",
+                "propertyValues": {}
+              },
+              "id": "2"
+            },
+            {
+              "type": "ModelRenderer",
+              "config": {
+                "formatVersion": 1,
+                "modelAssetId": "5",
+                "animationId": null,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "3"
+            },
+            {
+              "type": "CannonBody",
+              "config": {
+                "formatVersion": 2,
+                "mass": 10,
+                "fixedRotation": false,
+                "group": 1,
+                "mask": 1,
+                "shape": "box",
+                "positionOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "orientationOffset": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "halfSize": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "radius": 1,
+                "height": 1,
+                "segments": 16
+              },
+              "id": "7"
+            }
+          ],
+          "position": {
+            "x": 0.12428925931453705,
+            "y": -2.139439105987549,
+            "z": -8.743849754333496
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "5",
+          "name": "Camera",
+          "children": [],
+          "components": [
+            {
+              "type": "Camera",
+              "config": {
+                "formatVersion": 1,
+                "mode": "perspective",
+                "fov": 45,
+                "orthographicScale": 10,
+                "viewport": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1,
+                  "height": 1
+                },
+                "depth": 0,
+                "nearClippingPlane": 0.1,
+                "farClippingPlane": 90
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "CameraBehavior",
+                "propertyValues": {}
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0.35341906547546387,
+            "y": 3.0110456943511963,
+            "z": 3.5145254135131836
+          },
+          "orientation": {
+            "x": -0.06562528925838824,
+            "y": 0,
+            "z": 0,
+            "w": 0.997844339562238
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "7",
+          "name": "Borders",
+          "children": [
+            {
+              "id": "11",
+              "name": "Floor",
+              "children": [
+                {
+                  "id": "14",
+                  "name": "Sprite",
+                  "children": [],
+                  "components": [
+                    {
+                      "type": "SpriteRenderer",
+                      "config": {
+                        "formatVersion": 1,
+                        "spriteAssetId": "7",
+                        "animationId": null,
+                        "horizontalFlip": false,
+                        "verticalFlip": false,
+                        "castShadow": false,
+                        "receiveShadow": false,
+                        "color": "ffffff",
+                        "overrideOpacity": false,
+                        "opacity": null,
+                        "materialType": "basic",
+                        "shaderAssetId": null
+                      },
+                      "id": "0"
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "orientation": {
+                    "x": 0.7071067811865475,
+                    "y": 0,
+                    "z": 0,
+                    "w": 0.7071067811865476
+                  },
+                  "scale": {
+                    "x": 30,
+                    "y": 20,
+                    "z": 1
+                  },
+                  "visible": true,
+                  "layer": 0,
+                  "prefab": null
+                }
+              ],
+              "components": [
+                {
+                  "type": "CannonBody",
+                  "config": {
+                    "formatVersion": 2,
+                    "mass": 0,
+                    "fixedRotation": false,
+                    "group": 1,
+                    "mask": 1,
+                    "shape": "box",
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "halfSize": {
+                      "x": 15,
+                      "y": 0.1,
+                      "z": 10
+                    },
+                    "radius": 1,
+                    "height": 1,
+                    "segments": 16
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": -2.072,
+                "z": -8.2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "21",
+              "name": "Wall",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "formatVersion": 1,
+                    "spriteAssetId": "10",
+                    "animationId": null,
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null
+                  },
+                  "id": "0"
+                },
+                {
+                  "type": "CannonBody",
+                  "config": {
+                    "formatVersion": 2,
+                    "mass": 0,
+                    "fixedRotation": false,
+                    "group": 1,
+                    "mask": 1,
+                    "shape": "box",
+                    "positionOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "orientationOffset": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "halfSize": {
+                      "x": 0.5,
+                      "y": 0.5,
+                      "z": 0.5
+                    },
+                    "radius": 1,
+                    "height": 1,
+                    "segments": 16
+                  },
+                  "id": "1"
+                }
+              ],
+              "position": {
+                "x": 0.35652977228164673,
+                "y": -0.5052070617675781,
+                "z": -13.706992626190186
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0.4333772659301758,
+            "y": -1.2124557495117188,
+            "z": -0.45044469833374023
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": -0.35341906547546387,
+        "y": 0.8925104141235352,
+        "z": 5.455883979797363
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

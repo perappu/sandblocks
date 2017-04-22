@@ -1,3 +1,58 @@
 {
-  "behaviors": {}
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "9",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "shape",
+          "type": "number"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "angles",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "direction",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "MouseFollowBehavior": {
+      "scriptId": "11",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CameraBehavior": {
+      "scriptId": "15",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "cameraOffset",
+          "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "playerPosition",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "ShittyDebugTextBehavior": {
+      "scriptId": "16",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
 }

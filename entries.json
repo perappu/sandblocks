@@ -1,4 +1,89 @@
 {
-  "nextEntryId": 0,
-  "nodes": []
+  "nextEntryId": 18,
+  "nodes": [
+    {
+      "id": "3",
+      "name": "Base",
+      "type": "scene"
+    },
+    {
+      "id": "12",
+      "name": "Models",
+      "type": null,
+      "children": [
+        {
+          "id": "5",
+          "name": "Cube",
+          "type": "model"
+        },
+        {
+          "id": "13",
+          "name": "Sphere",
+          "type": "model"
+        },
+        {
+          "id": "14",
+          "name": "Cone",
+          "type": "model"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Wall 1",
+      "type": "sprite"
+    },
+    {
+      "id": "7",
+      "name": "Wall 2",
+      "type": "sprite"
+    },
+    {
+      "id": "10",
+      "name": "Circle",
+      "type": "sprite"
+    },
+    {
+      "id": "8",
+      "name": "Font",
+      "type": "font"
+    },
+    {
+      "id": "2",
+      "name": "Behaviors",
+      "type": null,
+      "children": [
+        {
+          "id": "9",
+          "name": "PlayerBehavior",
+          "type": "script"
+        },
+        {
+          "id": "11",
+          "name": "MouseFollowBehavior",
+          "type": "script"
+        },
+        {
+          "id": "15",
+          "name": "CameraBehavior",
+          "type": "script"
+        },
+        {
+          "id": "16",
+          "name": "ShittyDebugText",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "name": "Game",
+      "type": "script"
+    },
+    {
+      "id": "17",
+      "name": "Shader",
+      "type": "shader"
+    }
+  ]
 }
