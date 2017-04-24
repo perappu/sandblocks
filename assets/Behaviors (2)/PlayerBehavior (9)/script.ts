@@ -33,7 +33,7 @@ class PlayerBehavior extends Sup.Behavior {
   
   update() {
     
-    if (Sup.Input.isKeyDown("R")) {
+    if (Sup.Input.wasKeyJustPressed("R")) {
       Sup.loadScene("Base");
     }
     

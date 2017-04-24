@@ -6,8 +6,6 @@ module Game {
   export let inGameMusicPlayer = new Sup.Audio.SoundPlayer("Sounds/Music1", 2.0, { loop: true });
         
   inGameMusicPlayer.play();
-        
-  
 
 }
 

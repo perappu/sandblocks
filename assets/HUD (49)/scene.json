@@ -17,7 +17,7 @@
                 "fontAssetId": "8",
                 "text": "Use WASD to move.\nUse Space to jump.\nClick yourself, objects, and press F to interact.\nPress H to hide/show help.",
                 "alignment": "left",
-                "verticalAlignment": "center",
+                "verticalAlignment": "bottom",
                 "size": null,
                 "color": null,
                 "overrideOpacity": false,
