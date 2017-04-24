@@ -60,8 +60,8 @@
             "color": "ffffff",
             "overrideOpacity": false,
             "opacity": null,
-            "materialType": "basic",
-            "shaderAssetId": null
+            "materialType": "shader",
+            "shaderAssetId": "36"
           },
           "id": "4"
         }

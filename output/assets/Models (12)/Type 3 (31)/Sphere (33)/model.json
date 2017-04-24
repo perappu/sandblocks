@@ -3,8 +3,8 @@
   "unitRatio": 1,
   "upAxisMatrix": null,
   "attributes": [
-    "uv",
     "position",
+    "uv",
     "normal"
   ],
   "bones": null,

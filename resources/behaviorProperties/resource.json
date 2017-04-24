@@ -24,6 +24,10 @@
         {
           "name": "direction",
           "type": "Sup.Math.Vector3"
+        },
+        {
+          "name": "lightPosition",
+          "type": "Sup.Math.Vector3"
         }
       ]
     },
@@ -71,21 +75,9 @@
         }
       ]
     },
-    "CubeTouchableBehavior": {
+    "TouchableBehavior": {
       "scriptId": "35",
       "line": 0,
-      "parentBehavior": null,
-      "properties": []
-    },
-    "SphereTouchableBehavior": {
-      "scriptId": "35",
-      "line": 25,
-      "parentBehavior": null,
-      "properties": []
-    },
-    "ConeTouchableBehavior": {
-      "scriptId": "35",
-      "line": 50,
       "parentBehavior": null,
       "properties": []
     }

@@ -7,6 +7,10 @@ class PlayerBehavior extends Sup.Behavior {
   angles = new Sup.Math.Vector3(Math.PI / 2, 0, 0);
   direction = new Sup.Math.Vector3(0, 0, 1);
   
+  modelActor: Sup.Actor;
+  lightActor: Sup.Actor;
+  lightPosition: Sup.Math.Vector3;
+  
   awake() {
     Game.PlayerBehavior = this;
     this.shape = 0;
@@ -33,8 +37,10 @@ class PlayerBehavior extends Sup.Behavior {
       if (Sup.Input.isKeyDown("W")) {
         this.actor.cannonBody.body.velocity.z = -1 * this.speed;
       } 
-      if (Sup.Input.isKeyDown("SPACE")) {
-        this.actor.cannonBody.body.velocity.y = 30;
+      if (Sup.Input.wasKeyJustPressed("SPACE")) {
+        if(!(this.actor.getPosition().y > 3)) {
+          this.actor.cannonBody.body.velocity.y = 30;
+        }
       }
       if (Sup.Input.wasKeyJustPressed("F")) {
         Sup.appendScene("Prefabs/Spawnable")[0];
