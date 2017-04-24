@@ -1,0 +1,21 @@
+uniform vec3 lightDirection;
+       uniform sampler2D stepTexture;
+       uniform sampler2D texture;
+       uniform sampler2D normalMap;
+       uniform samplerCube envMap;
+       uniform bool edge;
+       uniform vec4 edgeColor;
+       uniform vec4 color;
+       varying vec2 vUv;
+       varying vec3 vEyeDirection;
+       varying vec3 vLightDirection;
+       void main(void){
+         if(edge){
+           gl_FragColor = edgeColor;
+         }else{
+           vec3 mNormal = (texture2D(normalMap, vUv) * 2.0 - 1.0).rgb;
+           vec3 halfLE = normalize(vLightDirection + vEyeDirection);
+           float step = clamp(dot(mNormal, vLightDirection), 0.1, 1.0);
+           gl_FragColor = texture2D(texture, vUv) * texture2D(stepTexture, vec2(step, 1.0));
+         }
+       }

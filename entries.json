@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 18,
+  "nextEntryId": 36,
   "nodes": [
     {
       "id": "3",
@@ -7,23 +7,91 @@
       "type": "scene"
     },
     {
+      "id": "22",
+      "name": "Prefabs",
+      "type": null,
+      "children": [
+        {
+          "id": "23",
+          "name": "Spawnable",
+          "type": "scene"
+        }
+      ]
+    },
+    {
       "id": "12",
       "name": "Models",
       "type": null,
       "children": [
         {
-          "id": "5",
-          "name": "Cube",
-          "type": "model"
+          "id": "25",
+          "name": "Type 1",
+          "type": null,
+          "children": [
+            {
+              "id": "5",
+              "name": "Cube",
+              "type": "model"
+            },
+            {
+              "id": "26",
+              "name": "Sphere",
+              "type": "model"
+            },
+            {
+              "id": "28",
+              "name": "Cone",
+              "type": "model"
+            }
+          ]
         },
         {
-          "id": "13",
-          "name": "Sphere",
-          "type": "model"
+          "id": "30",
+          "name": "Type 2",
+          "type": null,
+          "children": [
+            {
+              "id": "29",
+              "name": "Cube",
+              "type": "model"
+            },
+            {
+              "id": "13",
+              "name": "Sphere",
+              "type": "model"
+            },
+            {
+              "id": "14",
+              "name": "Cone",
+              "type": "model"
+            }
+          ]
         },
         {
-          "id": "14",
-          "name": "Cone",
+          "id": "31",
+          "name": "Type 3",
+          "type": null,
+          "children": [
+            {
+              "id": "32",
+              "name": "Cube",
+              "type": "model"
+            },
+            {
+              "id": "33",
+              "name": "Sphere",
+              "type": "model"
+            },
+            {
+              "id": "34",
+              "name": "Cone",
+              "type": "model"
+            }
+          ]
+        },
+        {
+          "id": "20",
+          "name": "InvertedSphere",
           "type": "model"
         }
       ]
@@ -44,9 +112,9 @@
       "type": "sprite"
     },
     {
-      "id": "8",
-      "name": "Font",
-      "type": "font"
+      "id": "18",
+      "name": "Shader",
+      "type": "shader"
     },
     {
       "id": "2",
@@ -69,8 +137,23 @@
           "type": "script"
         },
         {
+          "id": "19",
+          "name": "ClickableBehavior",
+          "type": "script"
+        },
+        {
+          "id": "35",
+          "name": "TouchableBehavior",
+          "type": "script"
+        },
+        {
           "id": "16",
           "name": "ShittyDebugText",
+          "type": "script"
+        },
+        {
+          "id": "24",
+          "name": "SpawnableBehavior",
           "type": "script"
         }
       ]
@@ -79,6 +162,11 @@
       "id": "0",
       "name": "Game",
       "type": "script"
+    },
+    {
+      "id": "8",
+      "name": "Font",
+      "type": "font"
     }
   ]
 }
