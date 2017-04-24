@@ -52,12 +52,6 @@
         }
       ]
     },
-    "ShittyDebugTextBehavior": {
-      "scriptId": "16",
-      "line": 0,
-      "parentBehavior": null,
-      "properties": []
-    },
     "ClickableBehavior": {
       "scriptId": "19",
       "line": 0,
@@ -80,6 +74,17 @@
       "line": 0,
       "parentBehavior": null,
       "properties": []
+    },
+    "TextBehavior": {
+      "scriptId": "16",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "visible",
+          "type": "boolean"
+        }
+      ]
     }
   }
 }

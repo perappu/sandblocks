@@ -16,7 +16,20 @@ class PlayerBehavior extends Sup.Behavior {
     this.shape = 0;
     this.actor.fMouseInput.emitter.on("leftClickReleased", () => { this.onLeftClick(); });
     this.position = this.actor.getPosition();
-  }
+    
+    this.actor.cannonBody.body.addEventListener('collide', (event) => {
+      
+      if (Game.PlayerBehavior.shape == 0) {
+        Sup.Audio.playSound("Sounds/Blip0", 0.05); 
+      } else if (Game.PlayerBehavior.shape == 1) {
+        Sup.Audio.playSound("Sounds/Blip2", 0.05); 
+      } else if (Game.PlayerBehavior.shape == 2) {
+        Sup.Audio.playSound("Sounds/Blip3", 0.05); 
+      }
+      
+    }); 
+    
+    }
   
   update() {
     
@@ -43,12 +56,11 @@ class PlayerBehavior extends Sup.Behavior {
         }
       }
       if (Sup.Input.wasKeyJustPressed("F")) {
-        Sup.appendScene("Prefabs/Spawnable")[0];
+        Sup.appendScene("Prefabs/Spawnable")[0].cannonBody.body.velocity = new CANNON.Vec3 (2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4));
       }
       
     } else {
         this.actor.cannonBody.body.velocity.x = 0;
-        this.actor.cannonBody.body.velocity.y = 0;
         this.actor.cannonBody.body.velocity.z = 0;
     }
     
@@ -66,8 +78,7 @@ class PlayerBehavior extends Sup.Behavior {
   setShape() {
     if(this.shape == 0) {
       this.actor.modelRenderer.setModel("Models/Type 1/Cube");
-    }
-    else if(this.shape == 1) {
+    } else if(this.shape == 1) {
       this.actor.modelRenderer.setModel("Models/Type 2/Sphere");
     } if(this.shape == 2) {
       this.actor.modelRenderer.setModel("Models/Type 3/Cone");

@@ -44,9 +44,9 @@
             }
           ],
           "position": {
-            "x": -1.5440000295639038,
-            "y": 13.107708930969238,
-            "z": -1.729534387588501
+            "x": -8.310829401016235,
+            "y": 19.009058952331543,
+            "z": -7.9326629638671875
           },
           "orientation": {
             "x": 0,
@@ -184,15 +184,15 @@
             }
           ],
           "position": {
-            "x": 0.35341906547546387,
-            "y": 3.0110456943511963,
-            "z": 3.5145254135131836
+            "x": 0,
+            "y": 4.465080738067627,
+            "z": 1.097733497619629
           },
           "orientation": {
-            "x": -0.15071275974125767,
+            "x": -0.2496594413045313,
             "y": 0,
             "z": 0,
-            "w": 0.988577590962256
+            "w": 0.9683337086257163
           },
           "scale": {
             "x": 1,
@@ -221,14 +221,14 @@
                       "config": {
                         "formatVersion": 1,
                         "modelAssetId": "37",
-                        "animationId": null,
+                        "animationId": "",
                         "castShadow": false,
                         "receiveShadow": false,
                         "color": "ffffff",
-                        "overrideOpacity": true,
+                        "overrideOpacity": false,
                         "opacity": null,
-                        "materialType": "shader",
-                        "shaderAssetId": "36"
+                        "materialType": "basic",
+                        "shaderAssetId": null
                       },
                       "id": "1"
                     }
@@ -245,8 +245,8 @@
                     "w": 0.7071067811865476
                   },
                   "scale": {
-                    "x": 15,
-                    "y": 15,
+                    "x": 1,
+                    "y": 1,
                     "z": 1
                   },
                   "visible": true,
@@ -275,9 +275,9 @@
                       "z": 0
                     },
                     "halfSize": {
-                      "x": 15,
+                      "x": 30,
                       "y": 1,
-                      "z": 10
+                      "z": 24
                     },
                     "radius": 1,
                     "height": 1,
@@ -298,9 +298,9 @@
                 "w": 1
               },
               "scale": {
-                "x": 1,
+                "x": 30,
                 "y": 1,
-                "z": 1
+                "z": 24
               },
               "visible": true,
               "layer": 0,
@@ -340,9 +340,9 @@
                 "w": 1
               },
               "scale": {
-                "x": 38,
-                "y": 31,
-                "z": 25
+                "x": 50,
+                "y": 50,
+                "z": 50
               },
               "visible": true,
               "layer": 0,
@@ -373,8 +373,8 @@
                       "z": 0
                     },
                     "halfSize": {
-                      "x": 16,
-                      "y": 16,
+                      "x": 32,
+                      "y": 30,
                       "z": 0.1
                     },
                     "radius": 1,
@@ -387,7 +387,7 @@
               "position": {
                 "x": 0,
                 "y": -2.0490000247955322,
-                "z": -18.01398801803589
+                "z": -32.3084921836853
               },
               "orientation": {
                 "x": 0,
@@ -396,8 +396,8 @@
                 "w": 1
               },
               "scale": {
-                "x": 16,
-                "y": 16,
+                "x": 24,
+                "y": 24,
                 "z": 0.1
               },
               "visible": true,
@@ -429,8 +429,8 @@
                       "z": 0
                     },
                     "halfSize": {
-                      "x": 16,
-                      "y": 16,
+                      "x": 32,
+                      "y": 30,
                       "z": 0.1
                     },
                     "radius": 1,
@@ -443,7 +443,7 @@
               "position": {
                 "x": 0,
                 "y": -2.0490000247955322,
-                "z": 1.3066816329956055
+                "z": 14.213287830352783
               },
               "orientation": {
                 "x": 0,
@@ -485,8 +485,8 @@
                       "z": 0
                     },
                     "halfSize": {
-                      "x": 16,
-                      "y": 16,
+                      "x": 30,
+                      "y": 30,
                       "z": 0.1
                     },
                     "radius": 1,
@@ -497,9 +497,9 @@
                 }
               ],
               "position": {
-                "x": -14.495726823806763,
+                "x": -29.42867684364319,
                 "y": -2.0490000247955322,
-                "z": -8.848186492919922
+                "z": -8.847999572753906
               },
               "orientation": {
                 "x": 0,
@@ -541,8 +541,8 @@
                       "z": 0
                     },
                     "halfSize": {
-                      "x": 16,
-                      "y": 16,
+                      "x": 30,
+                      "y": 30,
                       "z": 0.1
                     },
                     "radius": 1,
@@ -553,9 +553,9 @@
                 }
               ],
               "position": {
-                "x": 14.496,
-                "y": -2.049,
-                "z": -8.848
+                "x": 29.737346410751343,
+                "y": -2.0490000247955322,
+                "z": -8.847999572753906
               },
               "orientation": {
                 "x": 0,
@@ -613,7 +613,7 @@
                         "formatVersion": 1,
                         "modelAssetId": "5",
                         "animationId": "",
-                        "castShadow": false,
+                        "castShadow": true,
                         "receiveShadow": false,
                         "color": "ffffff",
                         "overrideOpacity": false,
@@ -720,7 +720,7 @@
                         "formatVersion": 1,
                         "modelAssetId": "26",
                         "animationId": null,
-                        "castShadow": false,
+                        "castShadow": true,
                         "receiveShadow": false,
                         "color": "ffffff",
                         "overrideOpacity": false,
@@ -827,7 +827,7 @@
                         "formatVersion": 1,
                         "modelAssetId": "28",
                         "animationId": null,
-                        "castShadow": false,
+                        "castShadow": true,
                         "receiveShadow": false,
                         "color": "ffffff",
                         "overrideOpacity": false,
@@ -940,95 +940,6 @@
           "visible": true,
           "layer": 0,
           "prefab": null
-        },
-        {
-          "id": "21",
-          "name": "Clickable",
-          "children": [],
-          "components": [
-            {
-              "type": "SpriteRenderer",
-              "config": {
-                "formatVersion": 1,
-                "spriteAssetId": "10",
-                "animationId": null,
-                "horizontalFlip": false,
-                "verticalFlip": false,
-                "castShadow": false,
-                "receiveShadow": false,
-                "color": "ffffff",
-                "overrideOpacity": false,
-                "opacity": null,
-                "materialType": "basic",
-                "shaderAssetId": null
-              },
-              "id": "0"
-            },
-            {
-              "type": "CannonBody",
-              "config": {
-                "formatVersion": 2,
-                "mass": 0,
-                "fixedRotation": false,
-                "group": 1,
-                "mask": 1,
-                "shape": "box",
-                "positionOffset": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                },
-                "orientationOffset": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                },
-                "halfSize": {
-                  "x": 2,
-                  "y": 2,
-                  "z": 0.1
-                },
-                "radius": 1,
-                "height": 1,
-                "segments": 16
-              },
-              "id": "1"
-            },
-            {
-              "type": "Behavior",
-              "config": {
-                "behaviorName": "ClickableBehavior",
-                "propertyValues": {}
-              },
-              "id": "2"
-            },
-            {
-              "type": "fMouseInput",
-              "config": {
-                "cameraActorName": "Camera"
-              },
-              "id": "3"
-            }
-          ],
-          "position": {
-            "x": 0.7899070382118225,
-            "y": -1.882676362991333,
-            "z": -16.595203399658203
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 4,
-            "y": 4,
-            "z": 4
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
         }
       ],
       "components": [],
@@ -1051,6 +962,33 @@
       "visible": true,
       "layer": 0,
       "prefab": null
+    },
+    {
+      "id": "43",
+      "name": "HUD",
+      "children": [],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 71.28097534179688,
+        "z": 48.95713806152344
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": {
+        "sceneAssetId": "49"
+      }
     }
   ]
 }

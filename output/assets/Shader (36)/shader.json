@@ -60,6 +60,12 @@
         0.1,
         1
       ]
+    },
+    {
+      "id": "8",
+      "name": "offset",
+      "type": "f",
+      "value": 0.3
     }
   ],
   "useLightUniforms": true,

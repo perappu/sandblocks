@@ -1,5 +1,11 @@
+//Shader code tinkered with from Sparklin Lab's Ludum Dare 33 entry, Fat Kevin
+//Because writing shaders is really hard and I do not remotely understand it
+//https://github.com/superpowers-extra/fat-kevin-game
+
 varying vec2 vUv;
 varying vec3 worldNormal;
+
+uniform float offset;
 
 #include <common>
 #include <bsdfs>
@@ -9,16 +15,13 @@ varying vec3 worldNormal;
 
 varying vec4 vColor;
 
+uniform float linewidth;
+
 void main() {
   vUv = uv;
   
-  // Hack for auto-repeating wall textures
-  // Walls have their V component > 1
-  if ( vUv.y > 1.0 ){
-    vUv.x *= sqrt(  modelMatrix[0][0]*modelMatrix[0][0] +
-                    modelMatrix[0][1]*modelMatrix[0][1] +
-                    modelMatrix[0][2]*modelMatrix[0][2] ) ;
-  }
+  vec4 pos = modelViewMatrix * vec4( position + normal * offset, 1.0 );
+  gl_Position = projectionMatrix * pos;
   
   #include <beginnormal_vertex>
   #include <skinbase_vertex>
@@ -37,9 +40,4 @@ void main() {
   n = modelMatrix * n;
   worldNormal = normalize( n ).xyz;
   
-  #include <worldpos_vertex>
-  #include <shadowmap_vertex>
-  
-//   vColor = vec4(1.0, 1.0, 1.0, 1.0);
-//   vColor.xyz = n.xyz * 0.5 + 0.5;
 }

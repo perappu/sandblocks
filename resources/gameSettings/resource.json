@@ -4,5 +4,7 @@
   "framesPerSecond": 60,
   "ratioNumerator": null,
   "ratioDenominator": null,
-  "customLayers": []
+  "customLayers": [
+    "UI"
+  ]
 }

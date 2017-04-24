@@ -2,6 +2,12 @@ module Game {
         
   export let PlayerBehavior: PlayerBehavior;
   export let CameraBehavior: CameraBehavior;
+        
+  export let inGameMusicPlayer = new Sup.Audio.SoundPlayer("Sounds/Music1", 2.0, { loop: true });
+        
+  inGameMusicPlayer.play();
+        
+  
 
 }
 

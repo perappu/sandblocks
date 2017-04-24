@@ -1,6 +1,11 @@
 {
-  "nextEntryId": 38,
+  "nextEntryId": 50,
   "nodes": [
+    {
+      "id": "49",
+      "name": "HUD",
+      "type": "scene"
+    },
     {
       "id": "3",
       "name": "Base",
@@ -107,14 +112,46 @@
       "type": "sprite"
     },
     {
-      "id": "7",
-      "name": "Wall 2",
-      "type": "sprite"
-    },
-    {
-      "id": "10",
-      "name": "Circle",
-      "type": "sprite"
+      "id": "41",
+      "name": "Sounds",
+      "type": null,
+      "children": [
+        {
+          "id": "42",
+          "name": "Blip0",
+          "type": "sound"
+        },
+        {
+          "id": "43",
+          "name": "Blip1",
+          "type": "sound"
+        },
+        {
+          "id": "44",
+          "name": "Blip2",
+          "type": "sound"
+        },
+        {
+          "id": "45",
+          "name": "Blip3",
+          "type": "sound"
+        },
+        {
+          "id": "46",
+          "name": "Blip4",
+          "type": "sound"
+        },
+        {
+          "id": "47",
+          "name": "Blip5",
+          "type": "sound"
+        },
+        {
+          "id": "48",
+          "name": "Music1",
+          "type": "sound"
+        }
+      ]
     },
     {
       "id": "2",
@@ -171,6 +208,11 @@
     {
       "id": "36",
       "name": "Shader",
+      "type": "shader"
+    },
+    {
+      "id": "40",
+      "name": "Outline Shader",
       "type": "shader"
     }
   ]

@@ -23,6 +23,8 @@ vec3 inv ( vec3 v )
 }
 
 void main() {
+  gl_FragColor = vec4( 0, 0, 0, 1.0 );
+  
   vec2 mUV = vUv;
   mUV.x = fract(mUV.x);
   mUV.y = fract(mUV.y);
