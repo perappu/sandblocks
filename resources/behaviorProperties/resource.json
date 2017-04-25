@@ -58,17 +58,6 @@
       "parentBehavior": null,
       "properties": []
     },
-    "SpawnableBehavior": {
-      "scriptId": "24",
-      "line": 0,
-      "parentBehavior": null,
-      "properties": [
-        {
-          "name": "initialized",
-          "type": "number"
-        }
-      ]
-    },
     "TouchableBehavior": {
       "scriptId": "35",
       "line": 0,
@@ -83,6 +72,39 @@
         {
           "name": "visible",
           "type": "boolean"
+        }
+      ]
+    },
+    "SphereSpawnableBehavior": {
+      "scriptId": "24",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "initialized",
+          "type": "number"
+        }
+      ]
+    },
+    "CubeSpawnableBehavior": {
+      "scriptId": "24",
+      "line": 28,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "initialized",
+          "type": "number"
+        }
+      ]
+    },
+    "ConeSpawnableBehavior": {
+      "scriptId": "24",
+      "line": 56,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "initialized",
+          "type": "number"
         }
       ]
     }

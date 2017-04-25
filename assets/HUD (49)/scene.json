@@ -15,7 +15,7 @@
               "config": {
                 "formatVersion": 2,
                 "fontAssetId": "8",
-                "text": "Use WASD to move.\nUse Space to jump.\nClick yourself, objects, and press F to interact.\nPress H to hide/show help.",
+                "text": "Use WASD/Space to move/jump.\nUse right click to look around.\nClick yourself, objects, and press 1-3 to interact.\nPress R to reset.\nPress H to hide/show help.",
                 "alignment": "left",
                 "verticalAlignment": "bottom",
                 "size": null,
@@ -35,8 +35,8 @@
             }
           ],
           "position": {
-            "x": -7.678831577301025,
-            "y": -4.1226043701171875,
+            "x": -6.383906841278076,
+            "y": -4.877976894378662,
             "z": -1.413991004228592
           },
           "orientation": {

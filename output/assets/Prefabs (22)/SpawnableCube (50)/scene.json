@@ -1,0 +1,90 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Spawnable",
+      "children": [],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "CubeSpawnableBehavior",
+            "propertyValues": {
+              "initialized": {
+                "type": "number",
+                "value": 0
+              }
+            }
+          },
+          "id": "2"
+        },
+        {
+          "type": "CannonBody",
+          "config": {
+            "formatVersion": 2,
+            "mass": 5,
+            "fixedRotation": false,
+            "group": 1,
+            "mask": 1,
+            "shape": "box",
+            "positionOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "orientationOffset": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "halfSize": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "radius": 0.5,
+            "height": 1,
+            "segments": 16
+          },
+          "id": "3"
+        },
+        {
+          "type": "ModelRenderer",
+          "config": {
+            "formatVersion": 1,
+            "modelAssetId": "5",
+            "animationId": null,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "shader",
+            "shaderAssetId": "36"
+          },
+          "id": "4"
+        }
+      ],
+      "position": {
+        "x": -0.20849008858203888,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

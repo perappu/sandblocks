@@ -18,7 +18,17 @@
       "children": [
         {
           "id": "23",
-          "name": "Spawnable",
+          "name": "SpawnableSphere",
+          "type": "scene"
+        },
+        {
+          "id": "50",
+          "name": "SpawnableCube",
+          "type": "scene"
+        },
+        {
+          "id": "51",
+          "name": "SpawnableCone",
           "type": "scene"
         }
       ]

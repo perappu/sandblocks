@@ -55,8 +55,14 @@ class PlayerBehavior extends Sup.Behavior {
           this.actor.cannonBody.body.velocity.y = 30;
         }
       }
-      if (Sup.Input.wasKeyJustPressed("F")) {
-        Sup.appendScene("Prefabs/Spawnable")[0].cannonBody.body.velocity = new CANNON.Vec3 (2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4));
+      if (Sup.Input.wasKeyJustPressed("1")) {
+        Sup.appendScene("Prefabs/SpawnableSphere")[0].cannonBody.body.velocity = new CANNON.Vec3 (2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4));
+      }
+      if (Sup.Input.wasKeyJustPressed("2")) {
+        Sup.appendScene("Prefabs/SpawnableCube")[0].cannonBody.body.velocity = new CANNON.Vec3 (2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4));
+      }
+      if (Sup.Input.wasKeyJustPressed("3")) {
+        Sup.appendScene("Prefabs/SpawnableCone")[0].cannonBody.body.velocity = new CANNON.Vec3 (2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4), 2 * Sup.Math.Random.float(-4, 4));
       }
       
     } else {
