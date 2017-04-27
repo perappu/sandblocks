@@ -4,8 +4,8 @@
   "upAxisMatrix": null,
   "attributes": [
     "position",
-    "uv",
-    "normal"
+    "normal",
+    "uv"
   ],
   "bones": null,
   "maps": [
